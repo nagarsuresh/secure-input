@@ -1,0 +1,8 @@
+<input type="password" class="hidden">
+<ng-content></ng-content>
+<a href="javascript:void(0)" (click)="toggleType()">
+    <clr-icon [attr.shape]="(type=='text')?'eye':'eye-hide'"></clr-icon>
+</a>
+<a href="javascript:void(0)" (click)="copyContents()">
+    <clr-icon shape="copy"></clr-icon>
+</a>
